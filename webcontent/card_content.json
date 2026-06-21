@@ -1,0 +1,7 @@
+{
+    "c1":"Gravel is compiled to LLVM, this ensures a clean transition, avoiding human errors at translating to assembly. Also, LLVM includes a optimizer, used for making execution way faster.",
+    "c2":"Gravel compiler evaluates as much as possible during compilation, reducing CPU and RAM usage at execution, while making the experience smoother.",
+    "c3":"Gravel has no secrets. No strange convertions, no surprises. Types never change. They are explicit. But you can use inference for native types (int, char, float).",
+    "c4":"Gravel is simple and predictable. Errors and warnings help. Reads as pseudocode or high level.",
+    "c5":"Gravel is low level and lets you control the hardware, but its syntax is clean and logical, making writing it enjoyable."
+}
