@@ -1,0 +1,67 @@
+@import url('https://googleapis.com');
+
+
+html {
+    background-color: rgb(255, 252, 248);
+    margin: 30px;
+}
+
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    height: 100px;
+    transition: ease-in-out 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card b {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #2d3748;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #4a5568;
+    line-height: 1.4;
+}
+
+.card:nth-of-type(1) { background-color: #e3f2fd; border-left: 5px solid #2196f3; }
+.card:nth-of-type(2) { background-color: #fffde7; border-left: 5px solid #fbc02d; }
+.card:nth-of-type(3) { background-color: #f3e5f5; border-left: 5px solid #ab47bc; }
+.card:nth-of-type(4) { background-color: #e7ffe8; border-left: 5px solid #2bff24; }
+.card:nth-of-type(5) { background-color: #fff5f5; border-left: 5px solid #ef5350; }
+
+
+
+.grad {
+    background: linear-gradient(45deg, #09ffad, #9b51e0, #e05151);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+
+}
